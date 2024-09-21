@@ -13,7 +13,7 @@ This project is an automated penetration testing framework designed to perform v
    
 **Project Structure**
 
-finalpt/
+Automatedtool/
 │
 ├── consent_management.py  # Manages client consent and permissions
 ├── exploit_module.py      # Handles automated Metasploit exploitation
@@ -47,7 +47,8 @@ sudo apt install metasploit-framework
 1. Clone the repository to your local machine:
 
 git clone https://github.com/MohammedAlhas/automated-pt-framework.git
-cd automated-pt-framework/finalpt
+
+cd automated-pt-framework/Automatedtool
 
 2. Install Python dependencies (if any): If your project includes a requirements.txt file, install the dependencies:
 
