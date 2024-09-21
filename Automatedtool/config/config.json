@@ -1,0 +1,12 @@
+{
+  "database": {
+    "host": "localhost",
+    "port": 5432,
+    "username": "your_username",
+    "password": "your_password",
+    "db_name": "pentest_db"
+  },
+  "api_keys": {
+    "some_service": "your_api_key_here"
+  }
+}

